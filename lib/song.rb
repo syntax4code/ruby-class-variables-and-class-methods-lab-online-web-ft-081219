@@ -1,7 +1,7 @@
-class Song (name, artist, genre)
+class Song 
 
   attr_accessor :name, :artist, :song
-  @@count = 0
+  @@count = 0  # keep track of the number of new songs that are created from the Song class. 
   @@artists = []
   @@genres = []
 
@@ -9,7 +9,7 @@ class Song (name, artist, genre)
    @name = song_name
    @artist = artist
    @genre = genre
-   @@count += 1
+   @@count += 1 ##initialize method should use the @@count variable and increment the value of that variable by 1
    @@artists << artist
    @@genres << genre
  end

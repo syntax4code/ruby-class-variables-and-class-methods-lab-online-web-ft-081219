@@ -1,7 +1,7 @@
-class Song 
+class Song
 
   attr_accessor :name, :artist, :song
-  @@count = 0  # keep track of the number of new songs that are created from the Song class. 
+  @@count = 0  # keep track of the number of new songs that are created from the Song class.
   @@artists = []
   @@genres = []
 
@@ -39,6 +39,3 @@ class Song
   end
 
 end
-
-
-  
